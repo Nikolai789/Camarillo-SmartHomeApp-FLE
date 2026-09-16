@@ -1,7 +1,7 @@
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { View, Text, StyleSheet, ScrollView, Pressable } from 'react-native';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
-import Feather from '@expo/vector-icons/Feather';
+import Entypo from '@expo/vector-icons/Entypo';
 import type { RootStackParamList } from '../Navigator';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;
@@ -9,7 +9,7 @@ type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;
 export default function HomeScreen({ navigation }: Props) {
     return (
         <ScrollView style={styles.container}>
-            <Feather name="home" size={80} color="#2988b4" style={{alignSelf: 'center', marginTop: 20, marginBottom: 10}} />
+            <Entypo name="home" size={80} color="#2988b4" style={{alignSelf: 'center', marginTop: 20, marginBottom: 10}} />
             <Text style={styles.title}>Smart Home Dashboard</Text>
 
             <Text style={styles.welcome}> Welcome, Nikozen! </Text>
