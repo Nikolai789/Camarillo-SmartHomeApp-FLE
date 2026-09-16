@@ -1,0 +1,38 @@
+export const DEVICES = [
+  {
+    id: '1',
+    name: 'Living Room Light',
+    shortLabel: 'Light',
+    kind: 'toggle',
+    icon: 'bulb',
+    iconSet: 'Ionicons',
+    isOn: true,
+  },
+  {
+    id: '2',
+    name: 'Bedroom Fan',
+    shortLabel: 'Fan',
+    kind: 'toggle',
+    icon: 'fan',
+    iconSet: 'MaterialCommunityIcons',
+    isOn: false,
+  },
+  {
+    id: '3',
+    name: 'Air Conditioner',
+    shortLabel: 'AC',
+    kind: 'toggle',
+    icon: 'snow',
+    iconSet: 'Ionicons',
+    isOn: false,
+  },
+  {
+    id: '4',
+    name: 'Main Door',
+    shortLabel: 'Door',
+    kind: 'lock',
+    icon: 'lock-closed',
+    iconSet: 'Ionicons',
+    isOn: true,
+  },
+];
